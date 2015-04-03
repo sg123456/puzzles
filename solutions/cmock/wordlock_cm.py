@@ -1,4 +1,4 @@
-__author__ = 'Chuck Mock'
+__author__ = 'sg'
 from collections import Counter
 import re
 try: 
@@ -12,7 +12,7 @@ SHOW_ALL_COMBOS = False
 
 # FUTURE: Fix iteration to handle rotational symmetry.
 
-RINGS = ['BDMJPRSTLN', 'AEIOUYRTLH', 'ACDEORSTLN', 'DHKYRSTLNE']
+RINGS = ['FGHIJABCDE', 'XYZ!&-UVW', 'KAEIORSTLN', 'OPQRSTKLMN']
 
 print "  Solving wordlock puzzle: http://puzzles.bostonpython.com/lock.html"
 print "    The lock has 4 rings: " +  "   ".join(RINGS)
